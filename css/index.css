@@ -1,0 +1,360 @@
+body{
+  padding: 0;
+  margin: 0;
+  font-family: 'Alegreya Sans', sans-serif;
+  color: #686868;
+}
+ul {
+  list-style-type: none;
+}
+/* start home */
+.project .home {
+  background-image: url(../images/drew-coffman-1872.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+
+/* start links */
+.project .home .links {
+  text-align: center;
+  overflow: hidden;
+  padding: 0 20%;
+}
+
+.project .home .links .logo img {
+  width: 180px;
+  float: left;
+  margin-top: 30px;
+}
+
+.project .home .links .contain-links {
+  display: inline-block;
+  float: right;
+}
+
+.project .home .links ul {
+  margin: 0;
+}
+
+.project .home .links ul li {
+  display: inline-block;
+}
+
+.project .home .links ul a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 35px 15px;
+  color: white;
+  font-size: 18px;
+  font-family: 'Alegreya', serif;
+}
+
+.project .home .links ul li .select {
+  color: #E0DCD2;
+  border-top: 3px solid #ad9667;
+}
+/* end links */
+/* start family bakery */
+.project .home .family-bakery{
+  text-align: center;
+  color: white;
+  width: 700px;
+margin: 140px auto 0;
+padding: 20px;
+}
+.project .home .family-bakery .welcome{
+  font-size: 22px;
+  margin:0px 0px 5px;
+}
+.project .home .family-bakery h1{
+font-size: 76px;
+margin:0px 0px 18px;
+font-family: 'Alegreya', serif;
+font-weight: 400;
+}
+.project .home .family-bakery p{
+  font-size:24px;
+  margin:10px 0px 20px;
+  line-height: 44.64px;
+}
+.project .home .family-bakery .two-link{
+  margin-top: 60px;
+}
+.project .home .family-bakery .two-link a{
+padding:18px 28px;
+border-radius: 6px;
+text-decoration: none;
+font-weight: 700;
+color: white;
+}
+.project .home .family-bakery .two-link .learn-more{
+  background-color: #8e7754;
+  margin:0px 0px 12px;
+}
+.project .home .family-bakery .two-link .contact-us{
+  border:2px solid white;
+  margin:0px 0px 12px 12px;
+}
+.project .home .family-bakery .animation{
+  display: block;
+  width: 25px;
+  height: 40px;
+  border: 2px solid whitesmoke;
+  border-radius: 25px;
+  margin: 140px auto 30px;
+}
+.project .home .family-bakery .end span{
+color: white;
+  font-size: 36px;
+  font-weight: 900;
+}
+/* end start family bakery */
+/*end home*/
+/* start Who we arek */
+.project .who-we-are{
+  padding: 86px 200px;
+  text-align: center;
+}
+.project .who-we-are .imge {
+  width: 40%;
+  vertical-align: middle;
+}
+.project .who-we-are .content{
+  width: 40%;
+  text-align: left;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 70px;
+}
+.project .who-we-are .content h2{
+font-size:32px ;
+font-weight: 400;
+margin: 0 0 25px;
+font-family: 'Alegreya', serif;
+color: black;
+}
+.project .who-we-are .content p{
+  font-size: 17px;
+  line-height: 31.62px;
+  margin-bottom: 20px;
+}
+.project .who-we-are .content .icon div{
+  margin-bottom: 18px;
+}
+.project .who-we-are .content img{
+  width: 40px;
+  border: #ddd 1px solid;
+  border-radius: 50%;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+/* start Who we arek end */
+/* start our location */
+.project .our-location{
+  padding: 86px 200px;
+  text-align: center;
+  background-color: #f8f8f8;
+}
+.project .our-location .content {
+  width: 40%;
+    text-align: left;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 70px;
+}
+.project .our-location img{
+  width: 40%;
+  vertical-align: middle;
+}
+.project .our-location h2{
+  font-size: 32px;
+  margin:0px 0px 25px;
+  color: black;
+  font-family: 'Alegreya',serif;
+  font-weight: 400;
+}
+.project .our-location p{
+font-size: 17px;
+line-height: 31.62px;
+margin: 0px 0px 20px;
+}
+/* end our location */
+/*start our baking*/
+.project .our-backing{
+  padding: 86px 200px;
+}
+.project .our-backing .head{
+  text-align: center;
+  margin-bottom: 65px;
+}
+.project .our-backing .head h3{
+  font-size: 30px;
+  color: black;
+  font-family: 'Alegreya',serif;
+  font-weight: 400;
+  margin:0 0 20px 0;
+}
+.project .our-backing .head p{
+  font-size: 17px;
+  margin: 0;
+}
+.project .our-backing .items{
+  overflow: hidden;
+  padding: 0 80px;
+}
+.project .our-backing .items div{
+  float: left;
+  width: 30.3333%;
+  margin:0 1.5% ;
+  text-align: center;
+}
+.project .our-backing .items div img{
+  width: 100%;
+}
+.project .our-backing .items div h4{
+  font-size: 22px;
+  font-weight: 400;
+  color: black;
+  font-family: 'Alegreya',serif;
+}
+.project .our-backing .items div p{
+  font-size:17px ;
+  line-height: 31.62px;
+}
+/*end our backing*/
+/* start contact-information */
+.project .contact-information{
+padding: 86px 280px;
+background-color: #f8f8f8;
+overflow: hidden;
+}
+.project .contact-information .f-left{
+  float: left;
+  width: 46%;
+}
+.project .contact-information .content{
+margin-right: 8%;
+}
+.project .contact-information .content h2{
+font-size: 32px;
+font-weight: 400;
+color: black;
+margin: 0 0 40px;
+font-family: 'Alegreya', serif;
+}
+.project .contact-information .content p{
+  font-size: 17px;
+}
+.project .contact-information .content .first-p{
+line-height: 31.62px;
+margin: 0 0 40px;
+}
+.project .contact-information .content .second-p {
+margin: 0 0 30px;
+}
+.project .contact-information .content .details div{
+margin-bottom: 18px;
+}
+.project .contact-information .content .details img{
+width: 40px;
+background-color: #8E7754;
+border-radius: 50%;
+vertical-align: middle;
+  margin-right: 10px ;
+}
+.project .contact-information .content .details span{
+font-size: 17px;
+vertical-align: middle;
+}
+.project .contact-information .frame{
+height: 520px;
+}
+/* end contact-information */
+/* start first-footer */
+.project .first-footer{
+padding: 60px 280px;
+background-color: #403D38;
+}
+.project .first-footer .contain{
+overflow: hidden;
+}
+.project .first-footer .contain h4{
+font-size: 18px;
+font-weight: 400;
+color: white;
+font-family: 'Alegreya', serif;
+}
+.project .first-footer .contain .same{
+float: left;
+width: 22%;
+padding: 0 1.5%;
+color: #a6a6a6;
+}
+.project .first-footer .contain p{
+  line-height: 29.76px;
+}
+.project .first-footer .contain .same ul{
+  padding: 0;
+}
+.project .first-footer .contain .same li{
+padding: 15px 0;
+  overflow: hidden;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);;
+}
+.project .first-footer .contain .same li img {
+width: 18px;
+float: left;
+}
+.project .first-footer .contain .same.special img{
+  width: 30px;
+  float: left;
+}
+.project .first-footer .contain .same.special a {
+  text-decoration: none;
+  float: left;
+  color: #a6a6a6;
+  padding-top: 5px;
+}
+.project .first-footer .contain .same.special ul{
+  background-image: url(../images/contact-details-map.png);
+  background-size: 250px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.project .first-footer .contain span{
+float: left;
+}
+.project .first-footer .contain .same .no-border{
+  border: none;
+}
+/* end first-footer */
+/*start second-foter*/
+.project .second-foter {
+  text-align: center;
+  padding: 60px 280px;
+  background-color: #353330;
+}
+.project .second-foter .logo{
+  width: 350px;
+}
+.project .second-foter p{
+  font-size: 15px;
+  margin: 30px 0;
+}
+.project .second-foter ul{
+  overflow: hidden;
+  margin: auto;
+  width: 200px;
+  padding: 0;
+}
+.project .second-foter li{
+  float: left;
+}
+.project .second-foter li img{
+  width: 40px;
+  background-color: #484540;
+  border-radius: 50%;
+  margin:0 5px;
+}
+/*end second-foter*/
+
